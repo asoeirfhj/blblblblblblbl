@@ -8,7 +8,7 @@ CHAT_ID = os.environ["CHAT_ID"]
 
 REACTIONS = ["👍", "🔥", "❤️", "😂", "🤔", "👀", "💯", "⚡"]
 
-TRIGGER_PROBABILITY = 0.25
+TRIGGER_PROBABILITY = 1.00
 
 
 def should_act() -> bool:
